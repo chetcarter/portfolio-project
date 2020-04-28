@@ -1,0 +1,9 @@
+.jumbotron{
+    background-image: url("../_img/home-slider-1.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
