@@ -7,7 +7,7 @@
     "lite": "lite-server",
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1"
- },
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chetcarter/portfolio-project.git"
@@ -19,11 +19,12 @@
   },
   "homepage": "https://github.com/chetcarter/portfolio-project#readme",
   "devDependencies": {
-    "lite-server": "^2.3.0"
+    "lite-server": "^2.3.0",
+    "minimist": ">=1.2.3"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0",
-    "jquery": "^3.3.1",
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.5.0",
     "popper.js": "^1.12.9"
   }
 }
