@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-project",
+  "version": "1.0.0",
+  "description": "NuCamp Portfolio Project",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chetcarter/portfolio-project.git"
+  },
+  "author": "Chet Carter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chetcarter/portfolio-project/issues"
+  },
+  "homepage": "https://github.com/chetcarter/portfolio-project#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
