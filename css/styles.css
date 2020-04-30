@@ -1,4 +1,4 @@
-.jumbotron{
+.jumbotron-fluid {
     background-image: url("../_img/home-slider-1.jpg");
     background-size: cover;
     height: 100vh;
@@ -8,4 +8,12 @@
     margin-bottom: 0px;
 }
 
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
 
+  .carousel-indicators {
+    bottom: -50px;
+  }
