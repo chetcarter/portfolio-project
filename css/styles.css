@@ -1,7 +1,31 @@
-.index-hero {
+.index-title-image {
     background-image: url("../_img/home-slider-1.jpg");
     background-size: cover;
     height: 100vh;
+}
+
+.about-title-image {
+  background-image: url("../_img/about-title-image.jpg");
+  background-size: cover;
+  height: 50vh;
+}
+
+.beer-title-image {
+  background-image: url("../_img/bar-title-image-2.jpg");
+  background-size: cover;
+  height: 50vh;
+}
+
+.gallery-title-image {
+  background-image: url("../_img/gallery-title-image.jpg");
+  background-size: cover;
+  height: 50vh;
+}
+
+.contact-title-image {
+  background-image: url("../_img/contact-title-image.jpg");
+  background-size: cover;
+  height: 50vh;
 }
 
 .navbar {
@@ -17,3 +41,13 @@ footer ul {
   .carousel-indicators {
     bottom: -50px;
   }
+
+ .img-fluid {
+    max-width: 100%;
+    height: auto;
+ } 
+
+ .test-bg-image {
+    background-image: url("../_img/home-parallax.jpg");
+    background-size: cover;
+ }
