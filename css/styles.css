@@ -47,7 +47,7 @@ footer ul {
     height: auto;
  } 
 
- .test-bg-image {
+ .testimonial-bg {
     background-image: url("../_img/home-parallax.jpg");
     background-size: cover;
  }
