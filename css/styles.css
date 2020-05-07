@@ -1,7 +1,109 @@
+body {
+  font-family: 'Arvo', sans-serif;
+}
+
+p {
+  color: #626166;
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 80px;
+  line-height: 80px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+h2, .h2, h2 a {
+  color: #252426;
+  font-size: 45px;
+  line-height: 55px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #252426;
+    font-family: 'Arvo', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+}
+
+h4 {
+  white-space: nowrap;
+  font-size: 30px;
+  line-height: 32px;
+  font-weight: 400;
+  color: rgb(200, 148, 84);
+  letter-spacing: 0px;
+}
+
+.btn-lg {
+  font-family: 'Arvo', sans-serif;
+  color: rgb(255, 255, 255);
+  border-color: rgb(200, 148, 84);
+  background-color: rgb(200, 148, 84);
+  font-size: 13px;
+  line-height: 60px;
+  height: 60px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  border-width: 2px;
+  border-radius: 0;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  padding: 0 29px;
+}
+
+.btn-lg:hover {
+  color: rgb(0, 0, 0);
+  border-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+}
+
+.btn-alt {
+  font-family: 'Arvo', sans-serif;
+  border-color: rgb(200, 148, 84);
+  font-size: 13px;
+  line-height: 46px;
+  height: 46px;
+  font-style: normal;
+  font-weight: 700;
+  background-color: transparent;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  border-width: 2px;
+  padding: 0 29px;
+}
+
+.btn-alt:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(200, 148, 84);
+}
+
+span {
+  color: rgb(200, 148, 84);
+}
+
 .index-title-image {
-    background-image: url("../_img/home-slider-1.jpg");
-    background-size: cover;
-    height: 100vh;
+  background-image: url("../_img/home-slider-1.jpg");
+  background-size: cover;
+  height: 100vh;
 }
 
 .about-title-image {
@@ -29,25 +131,87 @@
 }
 
 .navbar {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.navbar-nav li.nav-item a.nav-link {
+  color: rgb(200, 148, 84);
+  font-family: 'Arvo', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  text-transform: none;
+  padding: 0 18px;
+}
+
+.carousel-indicators {
+  bottom: -50px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+} 
+
+.testimonial-bg {
+  background-image: url("../_img/home-parallax.jpg");
+  background-size: cover;
+}
+
+.contact-icon {
+  color: rgb(200, 148, 84);
+}
+
+.form-control {
+  background-color: rgba(255,255,255,0);
+  border-color: rgba(200,148,84,1);
+  border-width: 2px;
+  border-style: solid;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  color: #abaab2;
+  font-family: Nunito;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0px;
+  text-transform: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 23px;
+  margin-bottom: 21px;
+}
+
+footer h3 {
+  color: rgb(200, 148, 84);
+  font-style: normal;
+  font-size: 22px;
+  letter-spacing: 0.3px;
+  line-height: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 footer ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
-  .carousel-indicators {
-    bottom: -50px;
-  }
+footer li a {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  letter-spacing: 0px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: none;
+  font-style: normal;
+}
 
- .img-fluid {
-    max-width: 100%;
-    height: auto;
- } 
-
- .testimonial-bg {
-    background-image: url("../_img/home-parallax.jpg");
-    background-size: cover;
- }
+footer li a:hover {
+  color: rgb(200, 148, 84);
+  text-decoration: none;
+}
