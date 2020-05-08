@@ -12,8 +12,6 @@ p {
 }
 
 h1 {
-  font-size: 80px;
-  line-height: 80px;
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -21,8 +19,6 @@ h1 {
 
 h2, .h2, h2 a {
   color: #252426;
-  font-size: 45px;
-  line-height: 55px;
   font-style: normal;
   font-weight: 700;
   letter-spacing: 0px;
@@ -32,8 +28,6 @@ h2, .h2, h2 a {
 h3 {
   color: #252426;
     font-family: 'Arvo', sans-serif;
-    font-size: 20px;
-    line-height: 30px;
     font-style: normal;
     font-weight: 700;
     letter-spacing: 0.3px;
@@ -42,8 +36,6 @@ h3 {
 
 h4 {
   white-space: nowrap;
-  font-size: 30px;
-  line-height: 32px;
   font-weight: 400;
   color: rgb(200, 148, 84);
   letter-spacing: 0px;
