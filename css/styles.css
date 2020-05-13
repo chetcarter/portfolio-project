@@ -219,3 +219,47 @@ footer li a:hover {
   background: rgb(0, 0, 0); /* IE */
   background: rgba(0, 0, 0, 1); /* NON-IE */
 }
+
+/* Home Image Gallery */
+
+.home-gallery-one {
+  background-image: url("../_img/home-single-image-3-1.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 480px;
+}
+
+.home-gallery-two {
+  background-image: url("../_img/home-single-image-4-1.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 480px;
+}
+
+.home-gallery-three {
+  background-image: url("../_img/home-single-image-5-1.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 480px;
+}
+
+.home-gallery-four {
+  background-image: url("../_img/home-single-image-6-1.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 480px;
+}
+
+.home-gallery-five {
+  background-image: url("../_img/home-single-image-7-1.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 480px;
+}
+
+.home-gallery-six {
+  background-image: url("../_img/home-single-image-8-1.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 480px;
+}
