@@ -263,3 +263,12 @@ footer li a:hover {
   background-position: center;
   min-height: 480px;
 }
+
+.gallery-image {
+  max-width : 260px;
+  margin: 5px;
+}
+
+.gallery-image .img-fluid {
+  margin-bottom: 10px;
+}
